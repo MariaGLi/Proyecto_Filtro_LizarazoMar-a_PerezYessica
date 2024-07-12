@@ -9,10 +9,14 @@ body{
     width: 100vw;
     height: 95vw;
     background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
+.contenedor{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
 .contenedor img{
-    margin-top: 20vw;
-    margin-left: 30vw;
     width: 22vw;
 }
