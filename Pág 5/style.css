@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(Myriad/Myriad\ Pro\ Light.otf);
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(Myriad/Myriad\ Pro\ Regular.ttf);
+}
+
+body{
+    background-color: black;
+    background-image: url(Imagenes/pexels-pixabay-159400@2x.png);
+    width: 100vw;
+    height: 95vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.contenedor{
+    overflow: hidden;
+    text-align: center;
+}
+.caja{
+    background-color: white;
+    width: 52vw;
+    height: 32vw;
+    border-radius: 4vw;
+    margin: 0 auto;
+    margin-top: 22vw;
+}
+.cajita{
+    display: flex;
+    justify-content: center;
+}
+#img{
+    width: 7.5vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.contenedor img{
+    width: 7.5vw;
+    margin-top: 1.5vw;
+}
+h3{
+    font-family: mregular;
+    font-size: 2.2vw;
+    margin-top: 0.5vw;
+}
+p{
+    font-family: mlight;
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+}
