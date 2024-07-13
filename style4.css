@@ -1,0 +1,124 @@
+@font-face {
+    font-family: mlight;
+    src: url(Myriad/Myriad\ Pro\ Light.otf);
+    font-family: mregular;
+    src: url(Myriad/Myriad\ Pro\ Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    background-image: url(Imagenes/pexels-pixabay-159400@2x.png);
+    width: 100vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.contenedor{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 27vw;
+}
+#cuadro{
+    width: 44vw;
+    height: 39vw;
+    background-color: #ffffff;
+    margin-top: -21vw;
+    position: absolute;
+    border-radius: 5vw;
+}
+#imagen{
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    margin-top: -19vw;
+}
+#bienvenido{
+    width: 80vw;
+    margin-left: 50vw;
+    margin-top: -11vw;
+    position: absolute;
+    font-family: mregular;
+    font-size: 2.5vw;
+}
+#kario{
+    width: 80vw;
+    margin-left: 70vw;
+    margin-top: -8vw;
+    position: absolute;
+    font-family: mregular;
+    font-size: 2.5vw;
+}
+#porfavor{
+    width: 80vw;
+    margin-left: 50vw;
+    margin-top: -4vw;
+    position: absolute;
+    font-family: mlight;
+    font-size: 1.1vw;
+    color: gray;
+}
+#usuario{
+    width: 80vw;
+    margin-left: 45vw;
+    margin-top: -2vw;
+    position: absolute;
+    font-family: mregular;
+    font-size: 1.5vw;
+}
+#cuadro1{
+    width: 32vw;
+    height: 2vw;
+    margin-top: -0.2vw;
+    margin-left: 32vw;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius:  5vw;
+    border: 1px #9f9f9f solid;
+}
+#contraseña{
+    width: 80vw;
+    margin-left: 45vw;
+    margin-top: 2.7vw;
+    position: absolute;
+    font-family: mregular;
+    font-size: 1.5vw;
+}
+#cuadro2{
+    width: 32vw;
+    height: 2vw;
+    margin-top: 4.8vw;
+    margin-left: 32vw;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius:  5vw;
+    border: 1px #9f9f9f solid;
+}
+#cuadro3{
+    width: 20vw;
+    height: 3vw;
+    margin-top: 9vw;
+    margin-left: -1vw;
+    background-color: #ff6f2c;
+    position: absolute;
+    border-radius:  5vw;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: mregular;
+    font-size: 1.5vw;
+}
+#tienes{
+    width: 150vw;
+    margin-left: 117vw;
+    margin-top: 14vw;
+    position: absolute;
+    font-family: mlight;
+    font-size: 0.8vw;
+    color: gray;
+}
