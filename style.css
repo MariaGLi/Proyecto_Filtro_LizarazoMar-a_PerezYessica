@@ -11,16 +11,12 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw;
 }
-
 .contenedor{
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    margin-top: 27vw;
-=======
     margin-top: 17em;
 }
 .contenedor img{
     width: 22vw;
->>>>>>> 4763a5ef24e15a6c0f03e055eea9a96e24cd75c7
 }
+
