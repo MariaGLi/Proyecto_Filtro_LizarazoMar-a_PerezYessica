@@ -7,16 +7,15 @@ body{
     background-color: black;
     background-image: url(Imagenes/pexels-pixabay-159400@2x.png);
     width: 100vw;
-    height: 95vw;
+    height: auto;
     background-repeat: no-repeat;
     background-size: 100vw;
 }
 
 .contenedor{
-    overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-top: 27vw;
+    margin-top: 17em;
 }
 .contenedor img{
     width: 22vw;
