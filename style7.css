@@ -2,3 +2,99 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: mlight;
+    src: url(Myriad/Myriad\ Pro\ Light.otf);
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(Myriad/Myriad\ Pro\ Regular.ttf);
+}
+
+.contenedor{
+    width: 100vw;
+    height: auto;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+.caja img{
+    width: 2.5vw;
+    height: 2.3vw;
+}
+
+.caja p{
+    font-family: mregular;
+    font-size: 1.5vw;
+    margin-top: 0.2vw;
+    margin-left: -5vw;
+}
+
+.cajita{
+    display: flex;
+}
+.cajita img{
+    width: 1.5vw;
+    height: 1.3vw;
+    margin: 0 auto;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+}
+#pedro{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: -0.2vw;
+}
+
+.linea{
+    background-color: rgb(128, 125, 125);
+    width: 100vw;
+    height: 0.1vw;
+    margin-top: 1.2vw;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    font-family: mregular;
+    font-size: 2.2vw;
+    margin-top: 2.5vw;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: mlight;
+    font-size: 1.3vw;
+    margin-top: 1.5vw;
+}
+
+.caja2{
+    width: 89vw;
+    font-family: mregular;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: mregular;
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+
+.cajita{
+    width: 89vw;
+    height: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: mlight;
+    font-size: 1.3vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.caja3 img{
+    width: 3.3vw;
+    height: 3.3vw;
+}
