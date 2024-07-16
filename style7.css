@@ -80,30 +80,12 @@ h4{
     font-family: mregular;
     font-size: 1.3vw;
     margin-top: 4vw;
-    margin-left: 1vw;
+    text-align: center;
+    margin-left: 3vw;
 }
-#des{
-    margin-left: 4vw;
+.caja2 p{
+    width: 11.12%;
 }
-#ctg{
-    margin-left: 4vw;
-}
-#fi{
-    margin-left: -1.7vw;
-}
-#ft{
-    margin-left: -1.7vw;
-}
-#fm{
-    margin-left: -1.7vw;
-}
-#fr{
-    margin-left: -1.7vw;
-}
-#cp{
-    margin-left: -2vw;
-}
-
 
 .caja3{
     display: flex;
@@ -117,33 +99,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
     margin-top: 2vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
 }
 .cajita2 p{
-    margin-top: 1.2vw;
-}
-.cajita2 .md{
-    margin-left: -2.5vw;
-}
-.cajita2 .int{
-    margin-left: 2.2vw;
-}
-.cajita2 .bj{
-    margin-left: 0.5vw;
-}
-.cajita2 .fi2{
-    margin-left: 2vw;
-}
-.cajita2 .ft2{
-    margin-left: 4vw;
-}
-.cajita2 .met{
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }
@@ -166,37 +131,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
     margin-top: 2vw;
 }
 .cajita3 p{
-    margin-top: 1.2vw;
-}
-.cajita3 .md{
-    margin-left: -2.5vw;
-}
-.cajita3 .int{
-    margin-left: 2.2vw;
-}
-.cajita3 .bj{
-    margin-left: 0.5vw;
-}
-.cajita3 .fi2{
-    margin-left: 2vw;
-}
-.cajita3 .ft2{
-    margin-left: 4vw;
-}
-.cajita3 .met{
-    margin-left: 1vw;
-}
-.cajita3 img{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct2{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }
@@ -219,37 +163,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
     margin-top: 2vw;
 }
 .cajita4 p{
-    margin-top: 1.2vw;
-}
-.cajita4 .md{
-    margin-left: -2.5vw;
-}
-.cajita4 .int{
-    margin-left: 2.2vw;
-}
-.cajita4 .bj{
-    margin-left: 0.5vw;
-}
-.cajita4 .fi2{
-    margin-left: 2vw;
-}
-.cajita4 .ft2{
-    margin-left: 4vw;
-}
-.cajita4 .met{
-    margin-left: 1vw;
-}
-.cajita4 img{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct3{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }
@@ -272,37 +195,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
     margin-top: 2vw;
 }
 .cajita5 p{
-    margin-top: 1.2vw;
-}
-.cajita5 .md{
-    margin-left: -2.5vw;
-}
-.cajita5 .int{
-    margin-left: 2.2vw;
-}
-.cajita5 .bj{
-    margin-left: 0.5vw;
-}
-.cajita5 .fi2{
-    margin-left: 2vw;
-}
-.cajita5 .ft2{
-    margin-left: 4vw;
-}
-.cajita5 .met{
-    margin-left: 1vw;
-}
-.cajita5 img{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct4{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }
@@ -325,37 +227,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
     margin-top: 2vw;
 }
 .cajita6 p{
-    margin-top: 1.2vw;
-}
-.cajita6 .md{
-    margin-left: -2.5vw;
-}
-.cajita6 .int{
-    margin-left: 2.2vw;
-}
-.cajita6 .bj{
-    margin-left: 0.5vw;
-}
-.cajita6 .fi2{
-    margin-left: 2vw;
-}
-.cajita6 .ft2{
-    margin-left: 4vw;
-}
-.cajita6 .met{
-    margin-left: 1vw;
-}
-.cajita6 img{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct5{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }
@@ -378,37 +259,16 @@ h4{
     font-size: 1.3vw;
     border: 1px solid black;
     border-radius: 3vw;
-    margin-left: 2.5vw;
+    text-align: center;
+    margin-left: 3vw;
+    align-items: center;
     margin-top: 2vw;
 }
 .cajita7 p{
-    margin-top: 1.2vw;
-}
-.cajita7 .md{
-    margin-left: -2.5vw;
-}
-.cajita7 .int{
-    margin-left: 2.2vw;
-}
-.cajita7 .bj{
-    margin-left: 0.5vw;
-}
-.cajita7 .fi2{
-    margin-left: 2vw;
-}
-.cajita7 .ft2{
-    margin-left: 4vw;
-}
-.cajita7 .met{
-    margin-left: 1vw;
-}
-.cajita7 img{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    width: 11.12%;
 }
 #pct6{
-    margin-top: 0.5vw;
-    margin-left: 1vw;
+    margin-top: -0.1vw;
     width: 3vw;
     height: 3vw;
 }

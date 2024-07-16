@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    background-image: url(Imagenes/pexels-pixabay-159400@2x.png);
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.reportar{
+    width: 70vw;
+    height: 30vw;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10vw;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caja img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-top: 0.7vw;
+}
+
+.caja p{
+    font-family: mregular;
+    font-size: 1.2vw;
+    margin-top: 0.9vw;
+    margin-left: -3vw;
+}
+
+.cajita{
+    display: flex;
+}
+.cajita img{
+    width: 1.5vw;
+    height: 1.3vw;
+    margin: 0 auto;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#pedro{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 0.2vw;
+}
+
+.frec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+}
+.frec select{
+    width: 25vw;
+    height: 2vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+.cump{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+}
+.cump select{
+    width: 25vw;
+    height: 2vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
