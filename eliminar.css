@@ -58,19 +58,28 @@ body{
 #imagen3{
     width: 1.5vw;
     height: 1.5vw;
-    margin-left: -50vw;
+    margin-left: -44vw;
     z-index: 2;
     position: absolute;
-    margin-top: -19vw;
+    margin-top: -18vw;
+}
+#imagen{
+    width: 1.5;
+    height: 1.5;
+    margin-left: 35vw;
+    margin-top: -0.8vw;
+
 }
 #refrescar{
     width: 50vw;
     font-size: 1.3vw;
     font-family: mregular;
-    margin-left: 3vw;
-    margin-top: -19vw;
+    margin-left: 2vw;
+    margin-top: -18.8vw;
     position: absolute;
     z-index: 2;
+    text-decoration: none;
+    color: black;
 }
 #imagen4{
     width: 1.5vw;
@@ -244,4 +253,27 @@ body{
     align-items: center;
     font-size: 1.5vw;
     font-family: mregular;
+}
+  #imagen10{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    margin-top: 0.5vw;
+    margin-left: -2vw;
+    z-index: 2;
+}
+#cuadro8{
+    width: 12vw;
+    height: 3vw;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 70vw;
+    background: #ff6f2c;
+    font-family: mregular;
+    font-size: 1.5vw;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1vw;
 }

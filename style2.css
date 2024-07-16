@@ -20,3 +20,11 @@ body{
 .contenedor img{
     width: 22vw;
 }
+@media (max-width: 768px){
+    .contenedor{margin-top: 40vw;}
+    .contenedor img{width: 40vw;}
+}
+@media (max-width:480px){
+    .contenedor{margin-top: 50vw;}
+    .contenedor img{width: 60vw;}
+}

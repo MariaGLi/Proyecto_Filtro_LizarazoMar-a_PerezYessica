@@ -122,3 +122,15 @@ body{
     font-size: 0.8vw;
     color: gray;
 }
+@media (max-width:1024px){
+    body{height: 20vw;}
+    .contenedor{margin-top: 30vw;}
+}
+@media (max-width:768px){
+    body{height: 30vw;}
+    .contenedor{margin-top: 40vw;}
+}
+@media (max-width:480px){
+    body{height: 40vw;}
+    .contenedor{margin-top: 50vw;}
+}

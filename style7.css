@@ -61,6 +61,22 @@
     margin-top: -0.2vw;
     position: absolute;
 }
+#eliminar{
+    width: 20vw;
+    font-family: mregular;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    margin-left: 80vw;
+    position: absolute;
+}
+#imagen2{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 33vw;
+    margin-top: -0.2vw;
+    position: absolute;
+}
 #pedro{
     width: 2.5vw;
     height: 2.5vw;
