@@ -119,6 +119,30 @@ h4{
 .caja2 p{
     width: 11.12%;
 }
+circle{
+    fill: none;
+    stroke: red;
+    stroke-width: 0.4vw;
+    stroke-dasharray: 95 100;
+    transform-origin: 50%;
+    transform: rotate(-80deg);
+}
+.porcentaje{
+    position: relative;
+    margin-top: 0.5vw;
+}
+span{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    font-family: mligth;
+}
 
 .caja3{
     display: flex;
@@ -140,16 +164,15 @@ h4{
 .cajita2 p{
     width: 11.12%;
 }
-#pct{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
-}
 .caja3 img{
     width: 3vw;
     height: 3vw;
     margin-left: 1.5vw;
     margin-top: 2.5vw;
+}
+.porcentaje2{
+    position: relative;
+    margin-top: 0.5vw;
 }
 
 .caja4{
@@ -172,16 +195,18 @@ h4{
 .cajita3 p{
     width: 11.12%;
 }
-#pct2{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
-}
 .caja4 img{
     width: 3vw;
     height: 3vw;
     margin-left: 1.5vw;
     margin-top: 2.5vw;
+}
+.porcentaje3 circle{
+    stroke: rgb(25, 167, 25);
+}
+.porcentaje3{
+    position: relative;
+    margin-top: 0.5vw;
 }
 
 .caja5{
@@ -204,16 +229,15 @@ h4{
 .cajita4 p{
     width: 11.12%;
 }
-#pct3{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
-}
 .caja5 img{
     width: 3vw;
     height: 3vw;
     margin-left: 1.5vw;
     margin-top: 2.5vw;
+}
+.porcentaje4{
+    position: relative;
+    margin-top: 0.5vw;
 }
 
 .caja6{
@@ -236,16 +260,18 @@ h4{
 .cajita5 p{
     width: 11.12%;
 }
-#pct4{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
-}
 .caja6 img{
     width: 3vw;
     height: 3vw;
     margin-left: 1.5vw;
     margin-top: 2.5vw;
+}
+.porcentaje5 circle{
+    stroke: rgb(25, 167, 25);
+}
+.porcentaje5{
+    position: relative;
+    margin-top: 0.5vw;
 }
 
 .caja7{
@@ -268,16 +294,18 @@ h4{
 .cajita6 p{
     width: 11.12%;
 }
-#pct5{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
-}
 .caja7 img{
     width: 3vw;
     height: 3vw;
     margin-left: 1.5vw;
     margin-top: 2.5vw;
+}
+.porcentaje6 circle{
+    stroke: rgb(241, 159, 35);
+}
+.porcentaje6{
+    position: relative;
+    margin-top: 0.5vw;
 }
 
 .caja8{
@@ -299,11 +327,6 @@ h4{
 }
 .cajita7 p{
     width: 11.12%;
-}
-#pct6{
-    margin-top: -0.1vw;
-    width: 3vw;
-    height: 3vw;
 }
 .caja8 img{
     width: 3vw;
