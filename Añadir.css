@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(Myriad/Myriad\ Pro\ Light.otf);
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(Myriad/Myriad\ Pro\ Regular.ttf);
+}
+
+body{
+    background-color: black;
+    background-image: url(Imagenes/pexels-pixabay-159400@2x.png);
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.añadir{
+    width: 75vw;
+    height: 33vw;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 6vw;
+    border-radius: 4vw;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caja img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-top: 1.5vw;
+}
+.caja p{
+    font-family: mregular;
+    font-size: 1.2vw;
+    margin-top: 1.8vw;
+    margin-left: -3vw;
+}
+#reg{
+    font-family: mregular;
+    font-size: 1.2vw;
+    margin-top: 1.8vw;
+    margin-left: -3vw;
+    text-decoration: none;
+    color: black;
+}
+
+.cajita{
+    display: flex;
+}
+.cajita img{
+    width: 1.5vw;
+    height: 1.3vw;
+    margin: 0 auto;
+    margin-left: 1vw;
+    margin-top: 1.7vw;
+}
+#pedro{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 1vw;
+}
+
+.cont{
+    width: 61vw;
+    margin: 0 auto;
+    margin-top: 6vw;
+}
+
+.caja2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+.cajita select{
+    width: 22vw;
+    height: 2vw;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    color: black;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita2 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita2 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+
+.caja3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+
+}
+.cajita3 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita3 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+.cajita4 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita4 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+
+.caja4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+
+}
+.cajita5 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita5 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+.cajita6 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita6 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+
+.cajita7{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cajita7 input{
+    width: 21.8vw;
+    height: 1.7vw;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background: #aaa8a8;
+    font-size: 1.5vw;
+    font-family: mlight;
+    border: 1px solid  black;
+    border-radius: 0.7vw;
+}
+.cajita7 ::placeholder{
+    color: rgb(58, 57, 57);
+}
+
+.boton{
+    width: 13vw;
+    height: 3vw;
+    background-color: #ff6f2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 4vw;
+    border-radius: 5vw;
+}
+.boton a{
+    font-size: 1.5vw;
+    font-family: mregular;    
+    margin-top: 0.5vw;
+    text-decoration: none;
+    color: black;
+}

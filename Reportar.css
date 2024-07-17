@@ -40,12 +40,19 @@ body{
     height: 1.5vw;
     margin-top: 1.5vw;
 }
-
 .caja p{
     font-family: mregular;
     font-size: 1.2vw;
     margin-top: 1.8vw;
     margin-left: -3vw;
+}
+#reg{
+    font-family: mregular;
+    font-size: 1.2vw;
+    margin-top: 1.8vw;
+    margin-left: -3vw;
+    text-decoration: none;
+    color: black;
 }
 
 .cajita{
@@ -150,8 +157,8 @@ body{
 }
 
 .boton{
-    width: 18vw;
-    height: 4vw;
+    width: 13vw;
+    height: 3vw;
     background-color: #ff6f2c;
     color: #ffffff;
     display: flex;
@@ -160,8 +167,10 @@ body{
     margin-top: 5.7vw;
     border-radius: 5vw;
 }
-.boton p{
-    font-size: 2vw;
+.boton a{
+    font-size: 1.5vw;
     font-family: mregular;    
-    margin-top: 0.7vw;
+    margin-top: 0.5vw;
+    text-decoration: none;
+    color: black;
 }
