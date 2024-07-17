@@ -26,13 +26,14 @@
 .caja img{
     width: 2.5vw;
     height: 2.3vw;
+    margin-left: 4vw;
 }
 
 a{
     font-family: mregular;
     font-size: 1.5vw;
     margin-top: 0.2vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     text-decoration: none;
     color: black;
 }

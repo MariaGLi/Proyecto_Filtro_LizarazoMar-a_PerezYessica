@@ -46,10 +46,10 @@ body{
     margin-top: -19vw;
 }
 #añadir{
-    width: 50vw;
+    width: 5vw;
     font-size: 1.3vw;
     font-family: mregular;
-    margin-left: -19vw;
+    margin-left: -64vw;
     margin-top: -19vw;
     position: absolute;
     z-index: 2;
@@ -72,10 +72,10 @@ body{
 
 }
 #refrescar{
-    width: 50vw;
+    width: 5vw;
     font-size: 1.3vw;
     font-family: mregular;
-    margin-left: 2vw;
+    margin-left: -43vw;
     margin-top: -18.8vw;
     position: absolute;
     z-index: 2;
@@ -91,10 +91,10 @@ body{
     margin-top: -19vw;
 }
 #eliminar{
-    width: 50vw;
+    width: 5vw;
     font-size: 1.3vw;
     font-family: mregular;
-    margin-left: 26vw;
+    margin-left: -19vw;
     margin-top: -19vw;
     position: absolute;
     z-index: 2;
@@ -110,10 +110,10 @@ body{
     margin-top: -19vw;
 }
 #reportar{
-    width: 50vw;
+    width: 5vw;
     font-size: 1.3vw;
     font-family: mregular;
-    margin-left: 61vw;
+    margin-left: 16vw;
     margin-top: -19vw;
     position: absolute;
     z-index: 2;
@@ -241,27 +241,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-#imagen12{
-    width: 1.3vw;
-    height: 1.3vw;
+#ima{
     position: absolute;
-    margin-top: 0.4vw;
-    margin-left: -2vw;
-    z-index: 2;
+    margin-top: -19vw;
+    margin-left: 50vw;
 }
-#cuadro4{
-    width: 10vw;
-    height: 2vw;
+#imag{
+    width: 1.5vw;
+    height: 1.5vw;
     position: absolute;
-    margin-top: 14vw;
-    margin-left: 75vw;
-    background: #eeeeef;
-    font-family: mregular;
-    font-size: 1.5vw;
-    color: black;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 1vw;
-    border: 1px solid #ff721b;
+    margin-top: 0vw;
+    margin-left: -0.5vw;
 }
