@@ -80,7 +80,7 @@ body{
 .caja2{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
 }
 .cajita select{
     width: 22vw;
@@ -89,7 +89,7 @@ body{
     cursor: pointer;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     color: black;
     font-size: 1.5vw;
     font-family: mlight;
@@ -102,7 +102,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -124,7 +124,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -139,7 +139,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -161,7 +161,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -176,7 +176,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -196,7 +196,7 @@ body{
     display: inline-block;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     font-size: 1.5vw;
     font-family: mlight;
     border: 1px solid  black;
@@ -214,7 +214,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 4vw;
+    margin-top: 2vw;
     border-radius: 5vw;
 }
 .boton a{
@@ -223,4 +223,70 @@ body{
     margin-top: 0.5vw;
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width:700px) {
+    .añadir{
+        height: 140vw;
+    }
+    .caja2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .caja3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .caja4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajita select{
+        width: 50vw;
+        height: 8vw;
+        font-size: 5vw;
+    }
+    .cajita2 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .cajita3 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .cajita4 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .cajita5 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .cajita6 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .cajita7 input{
+        width: 49vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+    .boton{
+        width: 25vw;
+        height: 6vw;
+        margin-top: 7vw;
+    }
+    .boton a{
+        font-size: 4vw;
+    }
 }

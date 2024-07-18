@@ -95,7 +95,7 @@ body{
     cursor: pointer;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     color: black;
     font-size: 1.7vw;
     font-family: mlight;
@@ -132,7 +132,7 @@ body{
     cursor: pointer;
     outline: 0;
     border: 0;
-    background: #aaa8a8;
+    background: #dfdfe0;
     color: black;
     font-size: 1.7vw;
     font-family: mlight;
@@ -151,7 +151,7 @@ body{
     margin-top: -2.4vw;
     display: block;
     border-left:2px solid #000000;
-    border-bottom:2px solid #ffffff;
+    border-bottom:2px solid #9c9292;
     transform: rotate(-45deg);
     transition: all 0.25s ease;
 }
@@ -173,4 +173,48 @@ body{
     margin-top: 0.5vw;
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width:700px) {
+    .reportar{
+        height: 100vw;
+    }
+    .frec{
+        flex-direction: column;
+    }
+    .frec select{
+        width: 42vw;
+        height: 7vw;
+        font-size: 4vw;
+    }
+    .frec label{
+        font-size: 4.5vw;
+    }
+    .cump{
+        flex-direction: column;
+    }
+    .cump select{
+        width: 42vw;
+        height: 7vw;
+        font-size: 4vw;
+        margin-left: 6vw;
+    }
+    .cump label{
+        font-size: 4.5vw;
+    }
+    .reportar i{
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left: 54.5vw;
+        margin-top: -5.5vw;
+    }
+    .boton{
+        width: 25vw;
+        height: 6vw;
+        margin-top: 9vw;
+        margin-left: 23vw;
+    }
+    .boton a{
+        font-size: 4vw;
+    }
 }
