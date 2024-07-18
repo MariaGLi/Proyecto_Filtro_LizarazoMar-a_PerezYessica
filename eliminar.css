@@ -263,6 +263,10 @@ body{
     border: #eeeeef;
     text-decoration: none;
     color: white;
+    transition: font-size 1s ease;
+}
+#cuadro7:hover{
+    font-size: 1vw;
 }
 @media (max-width: 600px) {
     body {
