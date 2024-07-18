@@ -175,7 +175,7 @@ body{
     width: 20vw;
     height: 3vw;
     background-color: #eeeeef;
-    margin-top:10vw;
+    margin-top: 14vw;
     position: absolute;
     border-radius: 3vw;
     margin-left: -45vw;
@@ -188,22 +188,22 @@ body{
     font-family: mregular;
     width: 20vw;
     position: absolute;
-    margin-top: 10.5vw;
-    margin-left: -43vw;
+    margin-top: 14.5vw;
+    margin-left: -38vw;
 }
 #imagen10{
     width: 2.5vw;
     height: 2.5vw;
     position: absolute;
-    margin-top: 10.4vw;
-    margin-left: -29vw;
+    margin-top: 14.2vw;
+    margin-left: -32vw;
 }
 #imagen11{
     width: 2.5vw;
     height: 2.5vw;
     position: absolute;
-    margin-top: 10.3vw;
-    margin-left: 33vw;
+    margin-top: 14.2vw;
+    margin-left: 32vw;
     z-index: 2;
 }
 #añadir1{
@@ -214,15 +214,15 @@ body{
     font-family: mregular;
     width: 20vw;
     position: absolute;
-    margin-top: 10.5vw;
-    margin-left: 57vw;
+    margin-top: 14.5vw;
+    margin-left: 55vw;
     z-index: 2;
 }
 #cuadro2{
     width: 11vw;
     height: 3vw;
     background-color: #eeeeef;
-    margin-top:10vw;
+    margin-top: 14vw;
     position: absolute;
     border-radius: 3vw;
     margin-left: 40vw;
@@ -231,7 +231,7 @@ body{
     width: 11vw;
     height: 3vw;
     background-color: #ff721b;
-    margin-top:10vw;
+    margin-top: 14vw;
     position: absolute;
     border-radius: 3vw;
     margin-left: -3vw;
@@ -241,15 +241,37 @@ body{
     justify-content: center;
     align-items: center;
 }
-#ima{
-    position: absolute;
-    margin-top: -19vw;
-    margin-left: 50vw;
-}
-#imag{
-    width: 1.5vw;
-    height: 1.5vw;
-    position: absolute;
-    margin-top: 0vw;
-    margin-left: -0.5vw;
+
+@media (max-width: 600px) {
+    body {
+        height: 20vw;
+        background-size: cover;
+    }
+
+    .contenedor {
+        margin-top: 40vw;
+    }
+
+    #cuadro {
+        width: 90vw;
+        height: 50vw;
+        margin-top: -25vw;
+        border-radius: 5vw;
+    }
+
+    #añadir, #refrescar, #eliminar, #reportar, #ayuda, #si, #indicadores, #añadir1 {
+        font-size: 2vw;
+    }
+
+    #cuadro1, #cuadro2, #cuadro3 {
+        width: 15vw;
+        height: -5vw;
+        border-radius: 5vw;
+
+    }
+
+    #imagen1, #imagen2, #imagen3, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9, #imagen10, #imagen11 {
+        width: -4vw;
+        height: -4vw;
+    }
 }
