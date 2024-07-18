@@ -222,7 +222,7 @@ body{
     font-family: mregular;    
     margin-top: 0.5vw;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 @media screen and (max-width:700px){
     .añadir{
@@ -288,5 +288,6 @@ body{
     }
     .boton a{
         font-size: 4vw;
+        color: white;
     }
 }
