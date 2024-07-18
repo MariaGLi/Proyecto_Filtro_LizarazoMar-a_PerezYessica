@@ -19,20 +19,20 @@ body{
     margin-top: 20vw;
 }
 .contenedor img{
-    width: 22vw;
+    width: 20vw;
 }
 @media (max-width: 1024px) {
     body {height: 20vw;}
     .contenedor {margin-top: 30vw;}
-    .contenedor img {width: 30vw;}
+    .contenedor img {width: 10vw;}
 }
 @media (max-width: 768px) {
     body {height: 30vw;}
     .contenedor {margin-top: 40vw;}
-    .contenedor img {width: 40vw;}
+    .contenedor img {width: 20vw;}
 }
 @media (max-width: 480px) {
     body {height: 40vw;}
     .contenedor {margin-top: 50vw;}
-    .contenedor img {width: 50vw;}
+    .contenedor img {width: 30vw;}
 }
