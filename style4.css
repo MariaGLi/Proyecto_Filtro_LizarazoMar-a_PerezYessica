@@ -21,86 +21,96 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 27vw;
+    height: 50vw;
 }
 #cuadro{
     width: 44vw;
     height: 39vw;
     background-color: #ffffff;
-    margin-top: -21vw;
+    margin-top: -26vw;
     position: absolute;
     border-radius: 5vw;
+    z-index: 2;
 }
 #imagen{
     width: 5vw;
     height: 5vw;
     position: absolute;
-    margin-top: -19vw;
+    margin-top: -25vw;
+    z-index: 2;
 }
 #bienvenido{
     width: 80vw;
     margin-left: 50vw;
-    margin-top: -11vw;
+    margin-top: -19vw;
     position: absolute;
     font-family: mregular;
     font-size: 2.5vw;
+    z-index: 2;
 }
 #kario{
     width: 80vw;
     margin-left: 70vw;
-    margin-top: -8vw;
+    margin-top: -16vw;
     position: absolute;
     font-family: mregular;
     font-size: 2.5vw;
+    z-index: 2;
 }
 #porfavor{
     width: 80vw;
     margin-left: 50vw;
-    margin-top: -4vw;
+    margin-top: -13vw;
     position: absolute;
     font-family: mlight;
     font-size: 1.1vw;
     color: gray;
+    z-index: 2;
 }
 #usuario{
     width: 80vw;
     margin-left: 45vw;
-    margin-top: -2vw;
+    margin-top: -11.5vw;
     position: absolute;
     font-family: mregular;
     font-size: 1.5vw;
+    z-index: 2;
 }
 #cuadro1{
     width: 32vw;
     height: 2vw;
-    margin-top: -0.2vw;
-    margin-left: 32vw;
+    margin-top: 16.8vw;
+    margin-left: 4vw;
     background-color: #ffffff;
     position: absolute;
     border-radius:  5vw;
     border: 1px #9f9f9f solid;
+    z-index: 2;
 }
 #contraseña{
     width: 80vw;
     margin-left: 45vw;
-    margin-top: 2.7vw;
+    margin-top: -5vw;
     position: absolute;
     font-family: mregular;
     font-size: 1.5vw;
+    z-index: 2;
 }
 #cuadro2{
     width: 32vw;
     height: 2vw;
-    margin-top: 4.8vw;
-    margin-left: 32vw;
+    margin-top: 24vw;
+    margin-left: 4vw;
     background-color: #ffffff;
     position: absolute;
     border-radius:  5vw;
     border: 1px #9f9f9f solid;
+    z-index: 2;
 }
 #cuadro3{
     width: 20vw;
     height: 3vw;
-    margin-top: 9vw;
+    margin-top: 5vw;
     margin-left: -1vw;
     background-color: #ff6f2c;
     position: absolute;
@@ -112,15 +122,17 @@ body{
     color: white;
     font-family: mregular;
     font-size: 1.5vw;
+    z-index: 2;
 }
 #tienes{
     width: 150vw;
     margin-left: 117vw;
-    margin-top: 14vw;
+    margin-top: 10vw;
     position: absolute;
     font-family: mlight;
     font-size: 0.8vw;
     color: gray;
+    z-index: 2;
 }
 @media (max-width:1024px){
     body{height: 20vw;}

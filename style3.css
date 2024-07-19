@@ -20,6 +20,9 @@ body{
 }
 .contenedor img{
     width: 20vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: -10vw;
 }
 @media (max-width: 1024px) {
     body {height: 20vw;}

@@ -20,4 +20,7 @@ body{
 }
 .contenedor img{
     width: 22vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: -10vw;
 }
